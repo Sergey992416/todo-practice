@@ -1,4 +1,4 @@
-tps://vuejs.org/guide/typescript/overview.html#project-setup).
+
 Приложение — todo list.  
 Фронтенд + бэкенд, с регистрацией и синхронизацией задач.
 
