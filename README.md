@@ -1,5 +1,53 @@
-# Vue 3 + TypeScript + Vite
+tps://vuejs.org/guide/typescript/overview.html#project-setup).
+Приложение — todo list.  
+Фронтенд + бэкенд, с регистрацией и синхронизацией задач.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Что я использовал
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+**Фронтенд**
+- Vue 3
+- TypeScript
+- Vite
+
+**Бэкенд**
+- Python
+- FastAPI
+- SQLite
+- JWT (для авторизации)
+
+---
+
+## Что умеет приложение
+
+### Фронтенд
+- создавать задачи
+- переносить задачи в «на сегодня»
+- отмечать задачи как выполненные
+- считать время в задаче (таймер старт / стоп)
+- интерфейс регистрации и входа
+
+### Бэкенд
+- регистрация пользователя
+- вход по email и паролю
+- хранение задач на сервере
+- синхронизация задач между устройствами одного пользователя
+
+---
+
+## Принцип работы синхронизации
+Все данные (пользователь и его задачи) хранятся на бэкенде.
+
+После входа пользователь получает токен.  
+Этот токен используется для всех запросов к серверу.
+
+Можно зайти под одним аккаунтом с разных устройств,список задач и их состояние будет одинаковым
+
+---
+
+## Как запустить проект
+
+### 1. Склонировать репозиторий
+
+```bash
+git clone https://github.com/Sergey992416/todo-practice.git
+cd todo-practice
