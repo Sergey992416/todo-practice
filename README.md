@@ -11,7 +11,8 @@
 
 **Бэкенд**
 - Python
-- FastAPI
+- FastAPI<img width="1082" height="503" alt="Снимок экрана 2026-02-04 183914" src="https://github.com/user-attachments/assets/385f41d6-05c4-4c2c-a11d-63615e7b4693" />
+
 - SQLite
 - JWT (для авторизации)
 
